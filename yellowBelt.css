@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* NavBar */
+.heading{
+  background-image: linear-gradient(to right, #EB1D36, #F5EDDC, #2FA4FF);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+.userBox{
+  display: flex;
+}
+.logo{
+  display: flex;
+/* background-color: #2FA4FF; */
+height: 100px;
+width: 800px;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+.profilePhoto{
+  /* background-color: azure; */
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+ 
+}
+.logoutBtn{
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  font-size: 15px;
+  background-color: #f20303b4;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 4px 5px 8px white;
+ height: 30px;
+ width: 80px;
+ cursor: pointer;
+}
+img{
+  height: 90px;
+}
+#profilePic{
+  background-color: white;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid black;
+  cursor: pointer;
+}
+/* NavBar End */
+
+
+/* Main section starts */
+#main{
+  background-color: #2FA4FF;
+  height: 700px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 30%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+#reverseUno{
+  height: 500px;
+}
+.flipBtn{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+#flipCard{
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+#reverseUno{
+  border-radius: 10%;
+}
+
+/* Center text for the user */
+#userText{
+  text-align: center;
+  margin: 10px;
+  color: #EB1D36;
+  font-size: 40px;
+}
+/* End center text for the user */
+
+/* User cards to choose from */
+
+#userCard{
+  background-color:#EB1D36;
+  height: 700px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 30%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-evenly;
+  display: flex;
+}
+.userCard1{
+ height: 500px;
+ width: 15%;
+ justify-content: center;
+}
+
+#card2, #card3, #card4{
+  height: 400px;
+}
+#userFlipCard{
+  height: 50px;
+  width: 100px;
+  background-color: #2FA4FF;
+ display: block;
+ margin-left: 25%;
+}
+.userCard2{
+  height: 500px;
+  width: 15%;
+  
+ }
+ .userCard3{
+  height: 500px;
+  width: 15%;
+  
+ }
